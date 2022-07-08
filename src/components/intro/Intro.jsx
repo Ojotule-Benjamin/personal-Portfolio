@@ -1,3 +1,4 @@
+import down from "../../assets/down.png";
 import "./intro.scss";
 
 const Intro = () => {
@@ -5,7 +6,7 @@ const Intro = () => {
     <div className="intro" id="intro">
       <div className="left">
         <div className="imgContainer">
-          <img src="assets/Picture2.png" />
+          <h1>Under Construction</h1>
         </div>
       </div>
       <div className="right">
@@ -16,7 +17,9 @@ const Intro = () => {
             Freelance<span></span>
           </h3>
         </div>
-        <a href="#portfolio">down icon from material ui</a>
+        <a href="#portfolio">
+          <img src={down} alt="" />
+        </a>
       </div>
     </div>
   );
