@@ -25,6 +25,7 @@
 
   .right {
     flex: 0.5;
+    position: relative;
 
     .wrapper {
       width: 100%;
@@ -43,6 +44,45 @@
       }
       h3 {
         font-size: 30px;
+        /*added below*/
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+
+        span {
+          font-size: inherit;
+          color: crimson;
+          padding-left: 10px; //added
+        }
+
+        .ityped-cursor {
+          animation: blink 1s infinite;
+        }
+
+        @keyframes blink {
+          50% {
+            opacity: 1;
+          }
+          100% {
+            opacity: 0;
+          }
+        }
+      }
+    }
+    a {
+      position: absolute;
+      bottom: 10px;
+      left: 40%;
+
+      img {
+        width: 30px;
+        animation: arrowBlink 2s infinite;
+      }
+
+      @keyframes arrowBlink {
+        100% {
+          opacity: 0;
+        }
       }
     }
   }
