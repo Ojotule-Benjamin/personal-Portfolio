@@ -2,14 +2,12 @@
 // import { useEffect, useRef } from "react";
 import TypeWriterEffect from "react-typewriter-effect";
 import down from "../../assets/down.png";
+import welcome3 from "../../assets/welcome3.svg";
 import "./intro.scss";
 
 const Intro = () => {
   // const wordsRef = useRef();
-  // useEffect(() => {
-
-  // })
-
+  // useEffect(() => {});
   // const textRef = useRef();
 
   // useEffect(() => {
@@ -25,15 +23,15 @@ const Intro = () => {
     <div className="intro" id="intro">
       <div className="left">
         <div className="imgContainer">
-          <h1>Under Construction</h1>
+          <img src={welcome3} alt="" />
         </div>
       </div>
       <div className="right">
         <div className="wrapper">
-          <h2>Hi There, i'm</h2>
+          <h2>Hi There, I'm</h2>
           <h1>Ojotule Benjamin Ajodo</h1>
           <h3>
-            Freelance{" "}
+            Freelance
             <span>
               <TypeWriterEffect
                 textStyle={{
@@ -42,10 +40,10 @@ const Intro = () => {
                 }}
                 startDelay={100}
                 cursorColor="crimson"
-                multiText={["Developer", "Content Writer", "Designer"]}
+                multiText={["Developer", "Technical Writer", "Developer"]}
                 multiTextDelay={1000}
                 hideCursorAfterText={true}
-                typeSpeed={50}
+                typeSpeed={100}
               />
             </span>
           </h3>
