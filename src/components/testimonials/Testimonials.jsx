@@ -33,8 +33,8 @@ const Testimonials = () => {
     <div className="testimonials" id="testimonials">
       <h1>Testimonial</h1>
       <div className="container">
-        {data.map((d) => (
-          <div className={d.featured ? "card featured" : "card"}>
+        {data.map((d, index) => (
+          <div key={index} className={d.featured ? "card featured" : "card"}>
             <div className="top">
               <TurnRight className="left" />
               <img src={d.img} alt="" />

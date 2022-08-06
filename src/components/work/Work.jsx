@@ -39,8 +39,8 @@ const Work = () => {
         className="slider"
         style={{ transform: `translateX(-${currentSlide * 100}vw)` }}
       >
-        {data.map((d) => (
-          <div className="container">
+        {data.map((d, index) => (
+          <div className="container" key={index}>
             <div className="item">
               <div className="left">
                 <div className="leftContainer">
