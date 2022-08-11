@@ -24,15 +24,12 @@ const Contact = () => {
             <GitHub className="socialsIcons" />
           </a>
           <a
-            href="https://github.com/Ojotule-Benjamin"
+            href="linkedin.com/in/ojotule-benjamin-ajodo-70a99773"
             className="socialsIcons"
           >
             <LinkedIn className="socialsIcons" />
           </a>
-          <a
-            href="https://github.com/Ojotule-Benjamin"
-            className="socialsIcons"
-          >
+          <a href="https://twitter.com/Rockefellerjr1" className="socialsIcons">
             <Twitter className="socialsIcons" />
           </a>
         </div>
