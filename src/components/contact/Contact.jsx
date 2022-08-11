@@ -18,6 +18,8 @@ const Contact = () => {
           <a
             href="https://github.com/Ojotule-Benjamin"
             className="socialsIcons"
+            target={"_blank"}
+            rel="noreferrer"
           >
             <GitHub className="socialsIcons" />
           </a>
