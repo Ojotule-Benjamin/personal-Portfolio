@@ -7,6 +7,9 @@
   @include mobile {
     flex-direction: column;
   }
+  @include deviceLessThan550 {
+    flex-direction: column;
+  }
 
   .left {
     flex: 1;
@@ -14,8 +17,59 @@
     display: flex;
     justify-content: center;
 
+    @include mobile {
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-around;
+    }
+    @include deviceLessThan550 {
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-around;
+    }
+
     img {
       height: 100%;
+
+      @include deviceLessThan550 {
+        height: 50%;
+      }
+    }
+    .socials {
+      @include mobile {
+        width: 100%;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+      }
+      @include deviceLessThan550 {
+        width: 100%;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+      }
+
+      a {
+        @include mobile {
+          color: crimson;
+          cursor: pointer;
+        }
+        @include deviceLessThan550 {
+          color: crimson;
+          cursor: pointer;
+        }
+      }
+
+      .socialsIcons {
+        @include mobile {
+          font-size: 40px;
+        }
+        @include deviceLessThan550 {
+          font-size: 35px;
+        }
+      }
     }
   }
   .right {
@@ -45,6 +99,10 @@
           width: 200px;
           height: 20px;
         }
+        @include deviceLessThan550 {
+          width: 250px;
+          height: 20px;
+        }
       }
 
       textarea {
@@ -55,6 +113,10 @@
         @include mobile {
           width: 200px;
           height: 100px;
+        }
+        @include deviceLessThan550 {
+          width: 250px;
+          height: 200px;
         }
       }
       button {

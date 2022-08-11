@@ -1,3 +1,4 @@
+import { GitHub, LinkedIn, Twitter } from "@mui/icons-material";
 import { useState } from "react";
 import handShake from "../../assets/handShake.svg";
 import "./contact.scss";
@@ -13,7 +14,26 @@ const Contact = () => {
     <div className="contact" id="contact">
       <div className="left">
         <img src={handShake} alt="" />
-        <img src="assets/shake.svg" alt="" />
+        <div className="socials">
+          <a
+            href="https://github.com/Ojotule-Benjamin"
+            className="socialsIcons"
+          >
+            <GitHub className="socialsIcons" />
+          </a>
+          <a
+            href="https://github.com/Ojotule-Benjamin"
+            className="socialsIcons"
+          >
+            <LinkedIn className="socialsIcons" />
+          </a>
+          <a
+            href="https://github.com/Ojotule-Benjamin"
+            className="socialsIcons"
+          >
+            <Twitter className="socialsIcons" />
+          </a>
+        </div>
       </div>
       <div className="right">
         <h2>Contact</h2>
