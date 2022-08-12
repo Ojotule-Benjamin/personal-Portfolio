@@ -11,12 +11,14 @@ const Topbar = ({ menuOpen, setMenuOpen }) => {
           </a>
           <div className="itemContainer">
             <Person className="icon" />
-            <span> +234 07063650901</span>
+            <a href={"tel:+234 07063650901"}> +234 07063650901</a>
           </div>
 
           <div className="itemContainer">
             <Email className="icon" />
-            <span>benjamin.ojotule.ajodo@gmail.com</span>
+            <a href={"mailto:benjamin.ojotule.ajodo@gmail.com"}>
+              benjamin.ojotule.ajodo@gmail.com
+            </a>
           </div>
         </div>
 

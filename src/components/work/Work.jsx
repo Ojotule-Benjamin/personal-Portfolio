@@ -7,24 +7,26 @@ const Work = () => {
   const data = [
     {
       id: "1",
-      // icon: "./assets/userAnalyticsDashBoard.png",
-      icon: "./assets/userAnalyticsDashBoard.png",
+      icon: "./asset/userAnalyticsDashBoard.png",
       title: "Web Design",
-      desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
-      img: "https://i.pinimg.com/originals/e9/c9/2f/e9c92f7869d682a6fa5a97fb8a298f30.jpg",
+      description:
+        "An admin dashboard that shows number of sales and analytic chart of active users per month.",
+      img: "./asset/userAnalyticsDashBoard.png",
     },
     {
       id: "2",
       icon: "./assets/globe.png",
       title: "Mobile Application",
-      desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+      description:
+        "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
       img: "https://i.pinimg.com/originals/e9/c9/2f/e9c92f7869d682a6fa5a97fb8a298f30.jpg",
     },
     {
       id: "3",
       icon: "./assets/writing.png",
       title: "Featured",
-      desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+      description:
+        "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
       img: "https://i.pinimg.com/originals/a9/f6/94/a9f69465d972a004ad581f245d6ad581.jpg",
     },
   ];
@@ -50,7 +52,13 @@ const Work = () => {
                   </div>
                   <h2>{d.title}</h2>
                   <p>{d.description}</p>
-                  <span>Projects</span>
+                  <a
+                    href="https://lnkd.in/dwhSSjuQ"
+                    target={"_blank"}
+                    rel="noreferrer"
+                  >
+                    Projects
+                  </a>
                 </div>
               </div>
               <div className="right">

@@ -45,7 +45,10 @@
           margin-right: 5px;
         }
 
-        span {
+        a {
+          text-decoration: none;
+          list-style: none;
+          color: $mainColor;
           font-size: 15px;
           font-weight: 500;
         }

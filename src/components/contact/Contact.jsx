@@ -26,11 +26,17 @@ const Contact = () => {
           <a
             href="linkedin.com/in/ojotule-benjamin-ajodo-70a99773"
             className="socialsIcons"
+            target={"_blank"}
+            rel="noreferrer"
           >
             <LinkedIn className="socialsIcons" />
           </a>
           <a href="https://twitter.com/Rockefellerjr1" className="socialsIcons">
-            <Twitter className="socialsIcons" />
+            <Twitter
+              className="socialsIcons"
+              target={"_blank"}
+              rel="noreferrer"
+            />
           </a>
         </div>
       </div>
